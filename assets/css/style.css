@@ -7,11 +7,13 @@
     padding: 5px 0 5px 0;
 }
 
-.rules
-
-}
+.rules{
+    background-color: blue;
+    color: white;
+    font-size: large;
+   }
 
 .game {
-
+      
 }
 
