@@ -14,15 +14,25 @@
    }
 
 .game 
-      
 
-table, td, tr {
-    border: 4px solid white;
+table { 
+    width: 50%;
+    display: inline;
+}      
+ table, td, tr {
+    border: 4px solid blue;
     padding: 4px;
-    background-color: blue;
-    color: white;
-}
-td, tr {
-    border: 1px solid white;
+    background-color: white;
+    color: blue;   
 }
 
+td, tr {
+    border: 1px solid blue;
+    color:  lightgray;
+    }
+
+    th {
+        color: blue;
+    }
+
+    
