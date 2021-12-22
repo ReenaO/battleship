@@ -15,6 +15,8 @@
     <header class="heading">
     <h1>BATTLESHIP <i class="fas fa-ship"></i></h1>
     </header>
+
+    
     
     <!--rules-->
     <div class="rules">
@@ -52,10 +54,43 @@
         </div>
     </rules>
 
-    
+    <!--place ship-->
+    <h3>Placing ships:</h3>
+    <div class ="ships">
+    <div class="ship carrier">Carrier:
+      <button id="carrier_0"></button> 
+      <button id="carrier_1"></button> 
+      <button id="carrier_2"></button>
+      <button id="carrier_3"></button> 
+      <button id="carrier_4"></button>
+      </div>
+
+    <div class="ship battleship">Battleship:
+       <button id="battleship_0"></button>
+       <button id="battleship_1"></button> 
+       <button id="battleship_2"></button> 
+       <button id="battleship_3"></button>
+       </div>
+
+  <div class="ship cruiser">Cruiser:
+       <button id="cruiser_0"></button> 
+       <button id="cruiser_1"></button>
+       <button id="cruiser_2"></button>
+       </div>
 
 
-     <table class="game">
+    <div class="ship submarine">Submarine:
+      <button id="submarine_0"></button> 
+      <button id="submarine_1"></button>
+      <button id="submarine_2"></button>
+      </div>
+
+    <div class="destroyer">Destroyer:
+    <button id ="destroyer_0"></button>
+    <button id ="destroyer_1"></button>
+    </div>
+  
+     <table class="grid user grid">
        <h3>My board</h3>
       <tr>
       <th></th>
@@ -201,7 +236,7 @@
          <td>10J</td>
         </tr>
         </table>
-      <table class="oppenent">
+      <table class="grid computer-oppenent">
          <h3>Oppenent's result</h3>
       <tr>
       <th></th>
@@ -347,7 +382,7 @@
      </tr>
      </table>
 
-     
+     <h3>Win/Lose</h3>
      
 
      
