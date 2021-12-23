@@ -1,5 +1,6 @@
 
 
+
 let gameArray1 = [`A, B, C, D, E, F, G, H, I, J`];
   for (let i=0; i<=9; i++);
    console.log(gameArray1)
@@ -16,4 +17,6 @@ let myGrid = gameArray1 + gameArray2;
 let oppenentComputerGrid =  gameArray1 + gameArray2;
   console.log(oppenentComputerGrid);
 
+let ships = [carrier, battleship, cruiser, submarine, destroyer];
+  console.log(ships);
 
